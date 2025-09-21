@@ -100,6 +100,7 @@ output:
 ```
 
 ## Instalação 
-python instalado
-Compilador C instalado 
+<p>Python 3 instalado </p>
+<p>Compilador C instalado </p> 
+
 **Linguagem**: Python, C <br>
