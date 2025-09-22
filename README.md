@@ -77,7 +77,7 @@ output:
 
 ### Questão 03
 
-rode o C: Guilherme_Maciel/Sum_Root_to_Leaf_Numbers.c
+rode o C: Guilherme_Maciel/1584.C
 
 ```
 Input: grid = [[0,2],[1,3]]
@@ -87,7 +87,7 @@ Output: 3
 
 ### Questão 04
 
-rode o C: Guilherme_Maciel/Find_Bottom_Left_Tree_Value.c
+rode o C: Guilherme_Maciel/778.C
 ```
 Input: points = [[0,0],[2,2],[3,10],[5,2],[7,0]]
 Output: 20
