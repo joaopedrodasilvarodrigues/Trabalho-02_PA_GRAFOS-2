@@ -13,8 +13,8 @@
 ### Questões do Guilherme 
 | Título | Responsável | Nível de Dificuldade | 
 | -- | -- | -- |
-|  | Guilherme Maciel |  |
-|  | Guilherme Maciel |  |
+| 778. Swim in Rising Water | Guilherme Maciel | Díficil |
+| 1584. Min Cost to Connect All Points | Guilherme Maciel | Medio |
 
 ### Questões do João Pedro
 | Título | Responsável | Nível de Dificuldade | 
@@ -33,13 +33,13 @@
 ![ (Custo mínimo para fazer ao meno 1 caminho válido em uma grade)](/Imagens/1368Minimun%20Cost%20to%20make%20at%20least.png)
 
 
-### [()]()
+### [(Nade em águas que sobem)](https://leetcode.com/problems/swim-in-rising-water/description/?envType=problem-list-v2&envId=heap-priority-queue)
 
-![()]()
+![(Nade em águas que sobem)]()
 
-### [()]()
+### [(Custo mínimo para conectar todos os pontos)](https://leetcode.com/problems/min-cost-to-connect-all-points/description/?envType=problem-list-v2&envId=minimum-spanning-tree)
 
-![()]() 
+![(Custo mínimo para conectar todos os pontos)]() 
 
 
 ## Link do vídeo da apresentação da dupla 
@@ -80,10 +80,8 @@ output:
 rode o C: Guilherme_Maciel/Sum_Root_to_Leaf_Numbers.c
 
 ```
-input: 
-root = [1,2,3]
-output:
-25
+Input: grid = [[0,2],[1,3]]
+Output: 3
 
 ```
 
@@ -91,8 +89,8 @@ output:
 
 rode o C: Guilherme_Maciel/Find_Bottom_Left_Tree_Value.c
 ```
-input: 
-root = [2,1,3]
+Input: points = [[0,0],[2,2],[3,10],[5,2],[7,0]]
+Output: 20
 
 output:
 1
