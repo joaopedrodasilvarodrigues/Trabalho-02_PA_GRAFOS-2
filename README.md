@@ -35,7 +35,7 @@
 
 ### [(Nade em águas que sobem)](https://leetcode.com/problems/swim-in-rising-water/description/?envType=problem-list-v2&envId=heap-priority-queue)
 
-![(Nade em águas que sobem)]()
+![(Nade em águas que sobem)](Imagens/risingWater.png)
 
 ### [(Custo mínimo para conectar todos os pontos)](https://leetcode.com/problems/min-cost-to-connect-all-points/description/?envType=problem-list-v2&envId=minimum-spanning-tree)
 
