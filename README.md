@@ -39,7 +39,7 @@
 
 ### [(Custo mínimo para conectar todos os pontos)](https://leetcode.com/problems/min-cost-to-connect-all-points/description/?envType=problem-list-v2&envId=minimum-spanning-tree)
 
-![(Custo mínimo para conectar todos os pontos)](Imagens/1584. Min Cost to Connect All Points.png) 
+![(Custo mínimo para conectar todos os pontos)](Imagens/1584MinCosttoConnectAllPoints.png) 
 
 
 ## Link do vídeo da apresentação da dupla 
