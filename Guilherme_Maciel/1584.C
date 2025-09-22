@@ -44,4 +44,37 @@ int distManhattan(Ponto p1, Ponto p2) {
 }
 void heapify(No* heap, int tamanhoHeap, int i) {
     int menor = i;
-    int esquerda = 2 * i +*
+    int esquerda = 2 * i + 1;
+    int direita = 2 * i + 2;
+    if (esquerda < tamanhoHeap && heap[esquerda].custo < heap[menor].custo)
+        menor = esquerda;
+    if (direita < tamanhoHeap && heap[direita].custo < heap[menor].custo)
+        menor = direita;
+    if (menor != i) {
+        No temp = heap[i];
+        heap[i] = heap[menor];
+        heap[menor] = temp;
+        heapify(heap, tamanhoHeap, menor);
+    }
+}
+void inserirHeap(No** heap, int* tamanhoHeap, No no) {
+    if (*tamanhoHeap >= TAM) {
+        *heap = (No*)realloc(*heap, (*tamanhoHeap + 1) * sizeof(No));
+    }
+    (*heap)[*tamanhoHeap] = no;
+    int i = *tamanhoHeap;
+    (*tamanhoHeap)++;
+    while ((*heap)[i].custo < (*heap)[(i - 1) / 2].custo && i > 0  ) {
+        No temp = (*heap)[i];
+        (*heap)[i] = (*heap)[(i - 1) / 2];
+        (*heap)[(i - 1) / 2] = temp;
+        i = (i - 1) / 2;
+    }
+}
+No removerMinHeap(No* heap, int* tamanhoHeap) {
+    No min = heap[0];
+    heap[0] = heap[*tamanhoHeap - 1];
+    (*tamanhoHeap)--;
+    heapify(heap, *tamanhoHeap, 0);
+    return min;
+} 
