@@ -44,7 +44,7 @@
 
 ## Link do vídeo da apresentação da dupla 
 
-[(Link do Vídeo)]()
+[(Link do Vídeo)](https://youtu.be/ySZfMbJzGhE)
 
 
 ## Guia de execução
